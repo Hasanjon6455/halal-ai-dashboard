@@ -1,0 +1,20 @@
+# Don't track virtual environment
+venv/
+
+# Don't track private config or keys
+.env
+
+# Don't track cache or compiled files
+__pycache__/
+*.py[cod]
+
+# Don't track system/editor files
+.DS_Store
+*.swp
+*.swo
+
+# Optional: ignore local report data (if sensitive or large)
+Reports/*.csv
+
+# Ignore Streamlit secrets (if any exist locally)
+.streamlit/secrets.toml
