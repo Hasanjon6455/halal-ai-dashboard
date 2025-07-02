@@ -3,3 +3,4 @@ alpaca-trade-api
 yfinance
 pandas
 plotly
+python-dotenv
