@@ -18,3 +18,5 @@ Reports/*.csv
 
 # Ignore Streamlit secrets (if any exist locally)
 .streamlit/secrets.toml
+
+alpaca_config.py
