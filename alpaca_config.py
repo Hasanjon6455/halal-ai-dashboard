@@ -1,5 +1,8 @@
 # alpaca_config.py
-API_KEY = "PKFRV9JA91I8QHUKO9SK"
-SECRET_KEY = "xJC9e46x4xKGGqeF5UcT65lnDn6eEMCOfmvaTTZS"
-BASE_URL = "https://paper-api.alpaca.markets"
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
+ALPACA_API_KEY = os.getenv("ALPACA_API_KEY")
+ALPACA_SECRET_KEY = os.getenv("ALPACA_SECRET_KEY")
+ALPACA_BASE_URL = os.getenv("ALPACA_BASE_URL")
